@@ -51,6 +51,12 @@ header .nav-items {
 .hero div img {
   width: 600px;
 }
+@media screen and (max-width: 650px) {
+  .hero div img {
+    width: 350px;
+    overflow-y: hidden;
+  }
+}
 .hero .hero-subtitle {
   color: #f83241;
   font-size: 1.5rem;
@@ -78,6 +84,13 @@ header .nav-items {
   width: 600px;
   height: 900px;
   background-color: #181818;
+}
+@media screen and (max-width: 650px) {
+  .box {
+    width: 300px;
+    height: 180vh;
+    margin-top: 30px;
+  }
 }
 
 .cards {
